@@ -377,7 +377,7 @@ PawnAddPluginScale(
 	PawnWowheadScale_DruidBalance,
 	"ff7d0a",
 	{
-		["HitRating"] = 100, ["SpellPower"] = 66, ["HasteRating"] = 54, ["CritRating"] = 43, ["Spirit"] = 22, ["Intellect"] = 22, ["Stamina"] = .1, ["IsPlate"] = -1000000, ["IsMail"] = -1000000, ["IsShield"] = -1000000, ["IsAxe"] = -1000000, ["Is2HAxe"] = -1000000, ["IsSword"] = -1000000, ["Is2HSword"] = -1000000, ["IsBow"] = -1000000, ["IsCrossbow"] = -1000000, ["IsGun"] = -1000000, ["IsThrown"] = -1000000, ["IsWand"] = -1000000, ["MetaSocketEffect"] = 3600
+		["HitRating"] = 100, ["SpellPower"] = 66, ["HasteRating"] = 54, ["CritRating"] = 43, ["Spirit"] = 22, ["Intellect"] = 22, ["Stamina"] = .1, ["IsShield"] = -1000000, ["Is2HAxe"] = -1000000, ["Is2HSword"] = -1000000, ["MetaSocketEffect"] = 3600
 	},
 	1
 )
@@ -421,7 +421,7 @@ PawnAddPluginScale(
 if not PawnWowheadScaleProviderOptions then PawnWowheadScaleProviderOptions = { } end
 if not PawnWowheadScaleProviderOptions.LastAdded then PawnWowheadScaleProviderOptions.LastAdded = 0 end
 
-local _, Class = UnitClass("player")
+local _, Class = UnitClass("player") --Add "if Intel allocated = caster"
 if PawnWowheadScaleProviderOptions.LastAdded < 1 then
 	-- Enable round one of scales based on the player's class.
 	if Class == "WARRIOR" then
