@@ -502,10 +502,11 @@ end
 -- string later in the table can be ignored.
 PawnSeparators =
 {
-	", ",
-	"/",
-	" & ",
-	" and ",
+    ", ",
+    "/",
+    " & ",
+    " and ",
+    "\r\n",
 }
 
 -- This string indicates that whatever stats follow it on the same line is the item's socket bonus.
