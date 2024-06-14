@@ -18,6 +18,254 @@
 
 
 --========================================
+-- Colored level 70 uncommon-quality gems
+--========================================
+PawnGemData70Uncommon =
+{
+
+
+------------------------------------------------------------
+-- Red gems
+------------------------------------------------------------
+
+{ 23095, true, false, false, "Strength", 6 }, -- Bold Blood Garnet
+{ 23097, true, false, false, "Agility", 6 }, -- Delicate Blood Garnet
+{ 28595, true, false, false, "Ap", 12 }, -- Bright Blood Garnet
+{ 23096, true, false, false, "SpellPower", 7 }, -- Runed Blood Garnet
+-- { 39907, true, false, false, "DodgeRating", 6 }, -- Subtle Blood Garnet
+-- { 39908, true, false, false, "ParryRating", 6 }, -- Flashing Blood Garnet
+-- { 39909, true, false, false, "ArmorPenetration", 6 }, -- Fractured Blood Garnet
+-- { 39910, true, false, false, "ExpertiseRating", 6 }, -- Precise Blood Garnet
+
+
+-- ------------------------------------------------------------
+-- -- Orange gems
+-- ------------------------------------------------------------
+
+-- { 39946, true, true, false, "SpellPower", 7, "Intellect", 6 }, -- Luminous Huge Citrine
+-- { 39947, true, true, false, "Strength", 6, "CritRating", 6 }, -- Inscribed Huge Citrine
+-- { 39948, true, true, false, "Strength", 6, "HitRating", 6 }, -- Etched Huge Citrine
+-- { 39949, true, true, false, "Strength", 6, "DefenseRating", 6 }, -- Champion's Huge Citrine
+-- { 39950, true, true, false, "Strength", 6, "ResilienceRating", 6 }, -- Resplendent Huge Citrine
+-- { 39951, true, true, false, "Strength", 6, "HasteRating", 6 }, -- Fierce Huge Citrine
+-- { 39952, true, true, false, "Agility", 6, "CritRating", 6 }, -- Deadly Huge Citrine
+-- { 39953, true, true, false, "Agility", 6, "HitRating", 6 }, -- Glinting Huge Citrine
+-- { 39954, true, true, false, "Agility", 6, "ResilienceRating", 6 }, -- Lucent Huge Citrine
+-- { 39955, true, true, false, "Agility", 6, "HasteRating", 6 }, -- Deft Huge Citrine
+-- { 39956, true, true, false, "SpellPower", 7, "CritRating", 6 }, -- Potent Huge Citrine
+-- { 39957, true, true, false, "SpellPower", 7, "HitRating", 6 }, -- Veiled Huge Citrine
+-- { 39958, true, true, false, "SpellPower", 7, "ResilienceRating", 6 }, -- Durable Huge Citrine
+-- { 39959, true, true, false, "SpellPower", 7, "HasteRating", 6 }, -- Reckless Huge Citrine
+-- { 39960, true, true, false, "Ap", 12, "CritRating", 6 }, -- Wicked Huge Citrine
+-- { 39961, true, true, false, "Ap", 12, "HitRating", 6 }, -- Pristine Huge Citrine
+-- { 39962, true, true, false, "Ap", 12, "ResilienceRating", 6 }, -- Empowered Huge Citrine
+-- { 39963, true, true, false, "Ap", 12, "HasteRating", 6 }, -- Stark Huge Citrine
+-- { 39964, true, true, false, "DodgeRating", 6, "DefenseRating", 6 }, -- Stalwart Huge Citrine
+-- { 39965, true, true, false, "ParryRating", 6, "DefenseRating", 6 }, -- Glimmering Huge Citrine
+-- { 39966, true, true, false, "ExpertiseRating", 6, "HitRating", 6 }, -- Accurate Huge Citrine
+-- { 39967, true, true, false, "ExpertiseRating", 6, "DefenseRating", 6 }, -- Resolute Huge Citrine
+
+
+------------------------------------------------------------
+-- Yellow gems
+------------------------------------------------------------
+
+{ 23113, false, true, false, "Intellect", 6 }, -- Brilliant Golden Draenite
+{ 28290, false, true, false, "CritRating", 6 }, -- Smooth Golden Draenite
+{ 23116, false, true, false, "HitRating", 6 }, -- Rigid Golden Draenite
+{ 23115, false, true, false, "DefenseRating", 6 }, -- Thick Golden Draenite
+-- { 39917, false, true, false, "ResilienceRating", 12 }, -- Mystic Golden Draenite
+-- { 39918, false, true, false, "HasteRating", 12 }, -- Quick Golden Draenite
+
+
+-- ------------------------------------------------------------
+-- -- Green gems
+-- ------------------------------------------------------------
+
+-- { 39968, false, true, true, "Intellect", 6, "Stamina", 9 }, -- Timeless Dark Jade
+-- { 39974, false, true, true, "CritRating", 6, "Stamina", 9 }, -- Jagged Dark Jade
+-- { 39975, false, true, true, "HitRating", 6, "Stamina", 9 }, -- Vivid Dark Jade
+-- { 39976, false, true, true, "DefenseRating", 6, "Stamina", 9 }, -- Enduring Dark Jade
+-- { 39977, false, true, true, "ResilienceRating", 6, "Stamina", 9 }, -- Steady Dark Jade
+-- { 39978, false, true, true, "HasteRating", 6, "Stamina", 9 }, -- Forceful Dark Jade
+-- { 39979, false, true, true, "Intellect", 6, "Spirit", 6 }, -- Seer's Dark Jade
+-- { 39980, false, true, true, "CritRating", 6, "Spirit", 6 }, -- Misty Dark Jade
+-- { 39981, false, true, true, "HitRating", 6, "Spirit", 6 }, -- Shining Dark Jade
+-- { 39982, false, true, true, "ResilienceRating", 6, "Spirit", 6 }, -- Turbid Dark Jade
+-- { 39983, false, true, true, "HasteRating", 6, "Spirit", 6 }, -- Intricate Dark Jade
+-- { 39984, false, true, true, "Intellect", 6, "Mp5", 3 }, -- Dazzling Dark Jade
+-- { 39985, false, true, true, "CritRating", 6, "Mp5", 3 }, -- Sundered Dark Jade
+-- { 39986, false, true, true, "HitRating", 6, "Mp5", 3 }, -- Lambent Dark Jade
+-- { 39988, false, true, true, "ResilienceRating", 6, "Mp5", 3 }, -- Opaque Dark Jade
+-- { 39989, false, true, true, "HasteRating", 6, "Mp5", 3 }, -- Energized Dark Jade
+-- { 39990, false, true, true, "CritRating", 6, "SpellPenetration", 8 }, -- Radiant Dark Jade
+-- { 39991, false, true, true, "HitRating", 6, "SpellPenetration", 8 }, -- Tense Dark Jade
+-- { 39992, false, true, true, "HasteRating", 6, "SpellPenetration", 8 }, -- Shattered Dark Jade
+
+
+------------------------------------------------------------
+-- Blue gems
+------------------------------------------------------------
+
+{ 23118, false, false, true, "Stamina", 9 }, -- Solid Chalcedony
+{ 23119, false, false, true, "Spirit", 6 }, -- Sparkling Chalcedony
+{ 23121, false, false, true, "Mp5", 3 }, -- Lustrous Chalcedony
+{ 23120, false, false, true, "SpellPenetration", 8 }, -- Stormy Chalcedony
+
+
+-- ------------------------------------------------------------
+-- -- Purple gems
+-- ------------------------------------------------------------
+
+-- { 39933, true, false, true, "ArmorPenetration", 6, "Stamina", 9 }, -- Puissant Shadow Crystal
+-- { 39934, true, false, true, "Strength", 6, "Stamina", 9 }, -- Sovereign Shadow Crystal
+-- { 39935, true, false, true, "Agility", 6, "Stamina", 9 }, -- Shifting Shadow Crystal
+-- { 39936, true, false, true, "SpellPower", 7, "Stamina", 9 }, -- Glowing Shadow Crystal
+-- { 39937, true, false, true, "Ap", 12, "Stamina", 9 }, -- Balanced Shadow Crystal
+-- { 39938, true, false, true, "DodgeRating", 6, "Stamina", 9 }, -- Regal Shadow Crystal
+-- { 39939, true, false, true, "ParryRating", 6, "Stamina", 9 }, -- Defender's Shadow Crystal
+-- { 39940, true, false, true, "ExpertiseRating", 6, "Stamina", 9 }, -- Guardian's Shadow Crystal
+-- { 39941, true, false, true, "SpellPower", 7, "Spirit", 6 }, -- Purified Shadow Crystal
+-- { 39942, true, false, true, "Agility", 6, "Mp5", 3 }, -- Tenuous Shadow Crystal
+-- { 39943, true, false, true, "SpellPower", 7, "Mp5", 3 }, -- Royal Shadow Crystal
+-- { 39944, true, false, true, "Ap", 12, "Mp5", 3 }, -- Infused Shadow Crystal
+-- { 39945, true, false, true, "SpellPower", 7, "SpellPenetration", 8 }, -- Mysterious Shadow Crystal
+
+
+}
+
+
+--========================================
+-- Colored level 70 rare-quality gems
+--========================================
+PawnGemData70Rare =
+{
+
+
+------------------------------------------------------------
+-- Red gems
+------------------------------------------------------------
+
+{ 24027, true, false, false, "Strength", 8 }, -- Bold Living Ruby
+{ 24028, true, false, false, "Agility", 8 }, -- Delicate Living Ruby
+{ 24030, true, false, false, "SpellPower", 9 }, -- Runed Living Ruby
+{ 24031, true, false, false, "Ap", 16 }, -- Bright Living Ruby
+{ 24032, true, false, false, "DodgeRating", 8 }, -- Subtle Living Ruby
+{ 24036, true, false, false, "ParryRating", 8 }, -- Flashing Living Ruby
+-- { 40002, true, true, true, "ArmorPenetration", 8 }, -- Fractured Living Ruby
+-- { 40003, true, true, true, "ExpertiseRating", 8 }, -- Precise Living Ruby
+
+
+------------------------------------------------------------
+-- Orange gems
+------------------------------------------------------------
+
+{ 24061, true, true, false, "Agility", 4, "HitRating", 4 }, -- Glinting Noble Topaz
+{ 24058, true, true, false, "Strength", 4, "CritRating", 4 }, -- Inscribed Noble Topaz
+{ 24060, true, true, false, "SpellPower", 5, "Intellect", 4 }, -- Luminous Noble Topaz
+{ 24059, true, true, false, "SpellPower", 5, "CritRating", 4 }, -- Potent Noble Topaz
+{ 31867, true, true, false, "SpellPower", 5, "HitRating", 4 }, -- Veiled Noble Topaz
+{ 31868, true, true, false, "Ap", 8, "CritRating", 4 }, -- Wicked Noble Topaz
+
+--Released in later patch
+-- { 35316, true, true, false, "SpellPower", 5, "HasteRating", 4 }, -- Reckless Noble Topaz
+
+
+--Not used
+-- { 40038, true, true, false, "Strength", 4, "HitRating", 4 }, -- Etched Noble Topaz
+-- { 40039, true, true, false, "Strength", 4, "DefenseRating", 4 }, -- Champion's Noble Topaz
+-- { 40040, true, true, false, "Strength", 4, "ResilienceRating", 4 }, -- Resplendent Noble Topaz
+-- { 40041, true, true, false, "Strength", 4, "HasteRating", 4 }, -- Fierce Noble Topaz
+-- { 40043, true, true, false, "Agility", 4, "CritRating", 4 }, -- Deadly Noble Topaz
+-- { 40045, true, true, false, "Agility", 4, "ResilienceRating", 4 }, -- Lucent Noble Topaz
+-- { 40046, true, true, false, "Agility", 4, "HasteRating", 4 }, -- Deft Noble Topaz
+-- { 40050, true, true, false, "SpellPower", 5, "ResilienceRating", 4 }, -- Durable Noble Topaz
+-- { 40053, true, true, false, "Ap", 8, "HitRating", 4 }, -- Pristine Noble Topaz
+-- { 40054, true, true, false, "Ap", 8, "ResilienceRating", 4 }, -- Empowered Noble Topaz
+-- { 40055, true, true, false, "Ap", 8, "HasteRating", 4 }, -- Stark Noble Topaz
+-- { 40056, true, true, false, "DodgeRating", 4, "DefenseRating", 4 }, -- Stalwart Noble Topaz
+-- { 40057, true, true, false, "ParryRating", 4, "DefenseRating", 4 }, -- Glimmering Noble Topaz
+-- { 40058, true, true, false, "ExpertiseRating", 4, "HitRating", 4 }, -- Accurate Noble Topaz
+-- { 40059, true, true, false, "ExpertiseRating", 4, "DefenseRating", 4 }, -- Resolute Noble Topaz
+
+
+------------------------------------------------------------
+-- Yellow gems
+------------------------------------------------------------
+
+{ 24047, false, true, false, "Intellect", 8 }, -- Brilliant Dawnstone
+{ 24048, false, true, false, "CritRating", 8 }, -- Smooth Dawnstone
+{ 24051, false, true, false, "HitRating", 8 }, -- Rigid Dawnstone
+{ 24052, false, true, false, "DefenseRating", 8 }, -- Thick Dawnstone
+{ 24053, false, true, false, "ResilienceRating", 8 }, -- Mystic Dawnstone
+
+--Added in later patch
+-- { 35315, true, true, true, "HasteRating", 8 }, -- Quick Dawnstone
+
+
+------------------------------------------------------------
+-- Green gems
+------------------------------------------------------------
+
+{ 24065, false, true, true, "Intellect", 4, "Mp5", 2 }, -- Dazzling Talasite
+{ 24062, false, true, true, "DefenseRating", 4, "Stamina", 6 }, -- Enduring Talasite
+{ 24067, false, true, true, "CritRating", 4, "Stamina", 6 }, -- Jagged Talasite
+{ 24066, false, true, true, "CritRating", 4, "SpellPenetration", 5 }, -- Radiant Talasite
+{ 33782, false, true, true, "ResilienceRating", 4, "Stamina", 6 }, -- Steady Talasite
+
+--Later patch
+-- { 35318, false, true, true, "HasteRating", 4, "Stamina", 6 }, -- Forceful Talasite
+
+-- not used
+-- { 40085, true, true, true, "Intellect", 4, "Stamina", 6 }, -- Timeless Talasite
+-- { 40088, true, true, true, "HitRating", 4, "Stamina", 6 }, -- Vivid Talasite
+-- { 40092, true, true, true, "Intellect", 4, "Spirit", 4 }, -- Seer's Talasite
+-- { 40095, true, true, true, "CritRating", 4, "Spirit", 4 }, -- Misty Talasite
+-- { 40096, true, true, true, "CritRating", 4, "Mp5", 2 }, -- Sundered Talasite
+-- { 40099, true, true, true, "HitRating", 4, "Spirit", 4 }, -- Shining Talasite
+-- { 40100, true, true, true, "HitRating", 4, "Mp5", 2 }, -- Lambent Talasite
+-- { 40101, true, true, true, "HitRating", 4, "SpellPenetration", 5 }, -- Tense Talasite
+-- { 40102, true, true, true, "ResilienceRating", 4, "Spirit", 4 }, -- Turbid Talasite
+-- { 40103, true, true, true, "ResilienceRating", 4, "Mp5", 2 }, -- Opaque Talasite
+-- { 40104, true, true, true, "HasteRating", 4, "Spirit", 4 }, -- Intricate Talasite
+-- { 40105, true, true, true, "HasteRating", 4, "Mp5", 2 }, -- Energized Talasite
+-- { 40106, true, true, true, "HasteRating", 4, "SpellPenetration", 5 }, -- Shattered Talasite
+
+
+------------------------------------------------------------
+-- Blue gems
+------------------------------------------------------------
+
+{ 24033, false, false, true, "Stamina", 12 }, -- Solid Star of Elune
+{ 24035, false, false, true, "Spirit", 8 }, -- Sparkling Star of Elune
+{ 24037, false, false, true, "Mp5", 4 }, -- Lustrous Star of Elune
+{ 24039, false, false, true, "SpellPenetration", 10 }, -- Stormy Star of Elune
+
+
+------------------------------------------------------------
+-- Purple gems
+------------------------------------------------------------
+
+{ 31863, true, false, true, "Ap", 8, "Stamina", 6 }, -- Balanced Nightseye
+{ 24056, true, false, true, "SpellPower", 5, "Stamina", 6 }, -- Glowing Nightseye
+{ 31865, true, false, true, "Ap", 8, "Mp5", 2 }, -- Infused Nightseye
+{ 35707, true, false, true, "DodgeRating", 4, "Stamina", 6 }, -- Regal Nightseye
+{ 24057, true, false, true, "SpellPower", 5, "Mp5", 2 }, -- Royal Nightseye
+{ 24055, true, false, true, "Agility", 4, "Stamina", 6 }, -- Shifting Nightseye
+{ 24054, true, false, true, "Strength", 4, "Stamina", 6 }, -- Sovereign Nightseye
+{ 32836, true, false, true, "SpellPower", 5, "Spirit", 4 }, -- Purified Shadow Pearl
+
+-- not used
+-- { 40024, true, true, true, "Agility", 4, "Mp5", 2 }, -- Tenuous Nightseye
+-- { 40028, true, true, true, "SpellPower", 5, "SpellPenetration", 10 }, -- Mysterious Nightseye
+-- { 40032, true, true, true, "ParryRating", 4, "Stamina", 6 }, -- Defender's Nightseye
+-- { 40033, true, true, true, "ArmorPenetration", 4, "Stamina", 6 }, -- Puissant Nightseye
+-- { 40034, true, true, true, "ExpertiseRating", 4, "Stamina", 6 }, -- Guardian's Nightseye
+
+
+}
+
+--========================================
 -- Colored level 80 uncommon-quality gems
 --========================================
 PawnGemData80Uncommon =
@@ -370,6 +618,53 @@ PawnGemData80Epic =
 
 }
 
+--========================================
+-- Level 70 crafted meta gems
+--========================================
+PawnMetaGemData70Rare =
+{
+
+
+------------------------------------------------------------
+-- Meta gems: Earthstorm
+------------------------------------------------------------
+
+{ 35501, false, false, false, "DefenseRating", 12 }, -- Eternal Earthstorm Diamond (+5% Shield Block Value)
+{ 25898, false, false, false, "DefenseRating", 12 }, -- Tenacity Earthstorm Diamond (chance to restore health on hit)
+{ 25897, false, false, false, "SpellPower", 14 }, -- Bracing Earthstorm Diamond (2% Reduced Threat)
+-- { 35503, false, false, false, "Stamina", 1 }, -- Brutal Earthstorm Diamond (+3 weapon damage + chance to stun for 1 sec)
+{ 25896, false, false, false, "Stamina", 18 }, -- Powerful Earthstorm Diamond (Stun Duration Reduced by 5%)
+{ 32409, false, false, false, "Agility", 12 }, -- Relentless Earthstorm Diamond (3% Increased Critical Damage)
+
+-- { 41380, false, false, false, "Stamina", 32 }, -- Austere Earthstorm Diamond (2% Increased Armor Value from Items)
+-- { 41381, false, false, false, "Ap", 42 }, -- Persistent Earthstorm Diamond (Stun Duration Reduced by 10%)
+-- { 41382, false, false, false, "SpellPower", 25 }, -- Trenchant Earthstorm Diamond (Stun Duration Reduced by 10%)
+-- { 41385, false, false, false, "Ap", 42 }, -- Invigorating Earthstorm Diamond (Sometimes Heal on Your Crits)
+-- { 41389, false, false, false, "CritRating", 21 }, -- Beaming Earthstorm Diamond (+2% Mana)
+-- { 41401, false, false, false, "Intellect", 21 }, -- Insightful Earthstorm Diamond (Chance to restore mana on spellcast)
+
+
+------------------------------------------------------------
+-- Meta gems: Skyfire
+------------------------------------------------------------
+
+{ 35503, false, false, false, "SpellPower", 14 }, -- Ember Skyfire Diamond (+2% Intellect)
+{ 34220, false, false, false, "CritRating", 12 }, -- Chaotic Skyfire Diamond (3% Increased Critical Damage)
+{ 25890, false, false, false, "CritRating", 14 }, -- Destructive Skyfire Diamond (1% Spell Reflect)
+{ 25895, false, false, false, "CritRating", 12 }, -- Enigmatic Skyfire Diamond (Reduces Snare/Root Duration by 10%)
+{ 25894, false, false, false, "Ap", 24 }, -- Swift Skyfire Diamond (Minor Run Speed Increase)
+-- { 25893, false, false, false, "HasteRating", 25 }, -- Mystical Skyfire Diamond (Chance on spellcast to get 236 haste for 6 sec)
+-- { 32410, false, false, false, "MeleeSpeed", 25, "RangedSped", 25 }, -- Thundering Skyfire Diamond (Minor Run Speed Increase)
+
+-- { 41375, false, false, false, "SpellPower", 25 }, -- Tireless Skyfire Diamond (Minor Run Speed Increase)
+-- { 41376, false, false, false, "Mp5", 11 }, -- Revitalizing Skyfire Diamond (3% Increased Critical Healing Effect)
+-- { 41377, false, false, false, "Stamina", 32 }, -- Effulgent Skyfire Diamond (Reduce Spell Damage Taken by 2%)
+-- { 41378, false, false, false, "SpellPower", 25 }, -- Forlorn Skyfire Diamond (Silence Duration Reduced by 10%)
+-- { 41379, false, false, false, "CritRating", 21 }, -- Impassive Skyfire Diamond (Fear Duration Reduced by 10%)
+-- { 41400, false, false, false }, -- Thundering Skyfire Diamond (Chance to Increase Melee/Ranged Attack Speed )
+
+
+}
 
 --========================================
 -- Level 80 crafted meta gems
@@ -419,24 +714,30 @@ PawnMetaGemData80Rare =
 
 PawnGemQualityLevels =
 {
+	{ 70, PawnLocal.GemQualityLevel70Uncommon },
+	{ 71, PawnLocal.GemQualityLevel70Rare },
 	{ 80, PawnLocal.GemQualityLevel80Uncommon },
 	{ 81, PawnLocal.GemQualityLevel80Rare },
 	{ 82, PawnLocal.GemQualityLevel80Epic },
 }
 PawnGemQualityTables =
 {
+	[70] = PawnGemData70Uncommon,
+	[71] = PawnGemData70Rare,
 	[80] = PawnGemData80Uncommon,
 	[81] = PawnGemData80Rare,
 	[82] = PawnGemData80Epic,
 }
-PawnDefaultGemQualityLevel = 81
+PawnDefaultGemQualityLevel = 71
 
 PawnMetaGemQualityLevels =
 {
-	{ 81, PawnLocal.MetaGemQualityLevel80Rare },
+	{ 71, PawnLocal.MetaGemQualityLevel70Rare },
+	{ 81, PawnLocal.MetaGemQualityLevel70Rare },
 }
 PawnMetaGemQualityTables =
 {
-	[81] = PawnMetaGemData80Rare,
+	[71] = PawnMetaGemData70Rare,
+	[81] = PawnMetaGemData70Rare,
 }
-PawnDefaultMetaGemQualityLevel = 81
+PawnDefaultMetaGemQualityLevel = 71

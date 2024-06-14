@@ -50,27 +50,28 @@ PawnStats =
 	{"Hit rating", "HitRating", "Hit rating.  Affects melee attacks, ranged attacks, and spells."},
 	{"Crit rating", "CritRating", "Critical strike rating.  Affects melee attacks, ranged attacks, and spells."},
 	{"Haste rating", "HasteRating", "Haste rating.  Affects melee attacks, ranged attacks, and spells."},
-	{"Mastery rating", "MasteryRating", VgerCore.Color.Salmon .. "New stat coming in Cataclysm.  " .. VgerCore.Color.Reset .. "Improves the unique bonus of the talent tree that you have the most points in."},
-	
+	{"PvE Power", "PVEpower", VgerCore.Color.Salmon .. "Ascension Specific stat.  " .. VgerCore.Color.Reset .. "Improves your efficiency in PvE"},
+	{"PvP Power", "PVPpower", VgerCore.Color.Salmon .. "Ascension Specific stat.  " .. VgerCore.Color.Reset .. "Improves your efficiency in PvP, but gives a perfomance debuff in PvE content"},
+
 	{"Offensive physical stats"},
 	{"Attack power", "Ap", "Attack power.  Does not include attack power that you will receive from Strength or Agility, or weapon DPS (for druids)."},
 	{"Ranged AP", "Rap", "Ranged attack power."},
 	{"Feral AP", "FeralAp", "Attack power that a weapon would grant a druid in feral forms.  If you assign a value to this stat, you should not also assign a value to weapon DPS."},
 	{"Expertise rating", "ExpertiseRating", "Expertise rating."},
-	{"Armor pen.", "ArmorPenetration", "Armor penetration rating causes your attacks to ignore some of your opponent's armor.\n\n" .. VgerCore.Color.Salmon .. "Cataclysm:  " .. VgerCore.Color.Reset .. "Items with ArPen will instead have other offensive stats."},
+	{"Armor pen.", "ArmorPenetration", "Armor penetration rating causes your attacks to ignore some of your opponent's armor.\n\n" },
 	
 	{"Spell stats"},
 	{"Spell power", "SpellPower", "Spell power, which affects both spell damage and healing."},
-	{"Mana per 5", "Mp5", "Mana regeneration per 5 seconds.\n\n" .. VgerCore.Color.Salmon .. "Cataclysm:  " .. VgerCore.Color.Reset .. "Items with 1 MP5 will instead have 2 Spirit."},
+	{"Mana per 5", "Mp5", "Mana regeneration per 5 seconds.\n\n" },
 	{"Spell penetration", "SpellPenetration", "Spell penetration causes your spells to ignore some of your opponent's resistances."},
 	
 	{"Defense stats"},
 	{"Armor", "Armor", "Armor, regardless of item type.  Classes with abilties that give armor bonuses should assign a value to base and bonus armor instead."},
 	{"Armor: base", "BaseArmor", "Base armor value on cloth, leather, mail, and plate.  Can be multiplied by abilities such as Thick Hide and Frost Presence.\n\nTank items with bonus armor in green text will have all of their armor count as base armor, as mods cannot determine how much of the armor is bonus armor."},
 	{"Armor: bonus", "BonusArmor", "Bonus armor value on weapons, trinkets, and rings.  Not affected by abilities and talents that modify armor."},
-	{"Block value", "BlockValue", "Block value increases the amount of damage absorbed with each successful shield block.\n\n" .. VgerCore.Color.Salmon .. "Cataclysm:  " .. VgerCore.Color.Reset .. "Items with block value will instead have different tanking stats."},
+	{"Block value", "BlockValue", "Block value increases the amount of damage absorbed with each successful shield block.\n\n" },
 	{"Block rating", "BlockRating", "Block rating increases your chances of blocking with a shield."},
-	{"Defense rating", "DefenseRating", "Defense rating.\n\n" .. VgerCore.Color.Salmon .. "Cataclysm:  " .. VgerCore.Color.Reset .. "Items with defense will instead have different tanking stats."},
+	{"Defense rating", "DefenseRating", "Defense rating.\n\n" },
 	{"Dodge rating", "DodgeRating", "Dodge rating."},
 	{"Parry rating", "ParryRating", "Parry rating."},
 	{"Resilience rating", "ResilienceRating", "Resilience rating."},
@@ -417,6 +418,9 @@ PawnLocal =
 	["GemColorList2"] = "%d %s or %s", -- 3 Red or Yellow
 	["GemColorList3"] = "%d of any color", -- 1 of any color
 	
+	["GemQualityLevel70Uncommon"] = "Level 70 uncommon",
+	["GemQualityLevel70Rare"] = "Level 70 rare",
+	["MetaGemQualityLevel70Rare"] = "Level 70 crafted",
 	["GemQualityLevel80Uncommon"] = "Level 80 uncommon",
 	["GemQualityLevel80Rare"] = "Level 80 rare",
 	["GemQualityLevel80Epic"] = "Level 80 epic",
@@ -449,7 +453,7 @@ For more information on customizing Pawn, please see the help file (Readme.htm) 
 -- Localized scale names
 ------------------------------------------------------------
 
-PawnWowheadScale_Provider = "Wowhead scales"
+PawnWowheadScale_Provider = "Premade scales"
 PawnWowheadScale_WarriorArms = "Warrior: arms"
 PawnWowheadScale_WarriorFury = "Warrior: fury"
 PawnWowheadScale_WarriorTank = "Warrior: tank"
@@ -479,7 +483,7 @@ PawnWowheadScale_MageFrost = "Mage: frost"
 PawnWowheadScale_WarlockAffliction = "Warlock: affliction"
 PawnWowheadScale_WarlockDemonology = "Warlock: demonology"
 PawnWowheadScale_WarlockDestruction = "Warlock: destruction"
-PawnWowheadScale_DruidBalance = "Druid: General Spell caster"
+PawnWowheadScale_DruidBalance = "Druid: balance"
 PawnWowheadScale_DruidFeralDps = "Druid: feral cat"
 PawnWowheadScale_DruidFeralTank = "Druid: feral bear"
 PawnWowheadScale_DruidRestoration = "Druid: restoration"
@@ -778,6 +782,9 @@ PawnRegexes =
 	{"^Prismatic Socket$", "PrismaticSocket", 1, PawnMultipleStatsFixed}, -- Prismatic / colorless sockets are added by blacksmithing
 	{"^Meta Socket$", "MetaSocket", 1, PawnMultipleStatsFixed},
 	{"^\"Only fits in a meta gem slot%.\"$", "MetaSocketEffect", 1, PawnMultipleStatsFixed}, -- Actual meta gems, not the socket
+	{"^Equip: Increases PvE Power by (%d+)%.$", "PVEpower"},
+	{"^Equip: Increases PvP Power by (%d+)%.$", "PVPpower"}, 
+	
 
 	-- ========================================
 	-- Rare strings that are ignored (common ones are at the top of the file)

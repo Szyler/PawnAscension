@@ -302,9 +302,9 @@ function PawnInitializeOptions()
 	PawnMigrateSetting("ShowUnenchanted", true)
 	PawnMigrateSetting("ShowEnchanted", false)
 	PawnMigrateSetting("ShowItemID", false)
-	PawnMigrateSetting("AlignNumbersRight", false)
+	PawnMigrateSetting("AlignNumbersRight", true)
 	PawnMigrateSetting("ShowSpace", false)
-	PawnMigrateSetting("ButtonPosition", PawnButtonPositionRight)
+	PawnMigrateSetting("ButtonPosition", PawnButtonPositionLeft)
 	PawnMigrateSetting("ShowTooltipIcons", true)
 
 	-- Now, migrate all scales from this character over to PawnCommon.
@@ -474,6 +474,8 @@ function PawnGetDefaultScale()
 			["ArcaneResist"] = 1,
 			["FrostResist"] = 1,
 			["MetaSocketEffect"] = 36,
+			["PvEPower"] = 10,
+			["PvPPower"] = -10,
 		},
 	}
 end
@@ -1339,7 +1341,7 @@ function PawnGetStatsFromTooltip(TooltipName, DebugMessages)
 				CurrentDebugMessages = DebugMessages
 				IgnoreErrors = false
 			else
-				local RightLine = getglobal(TooltipName .. "TextRight" .. i) -- getglobal(GameTooltipTextRight1)
+				local RightLine = getglobal(TooltipName .. "TextRight" .. i)
 				CurrentParseText = RightLine:GetText()
 				if (not CurrentParseText) or (CurrentParseText == "") then break end
 				RegexTable = PawnRightHandRegexes
@@ -1666,7 +1668,7 @@ function PawnAnnotateTooltipLines(TooltipName, Lines)
 	local Tooltip = getglobal(TooltipName)
 	local LineCount = Tooltip:NumLines()
 	for i = 2, LineCount do
-		local LeftLine = getglobal(TooltipName .. "TextLeft" .. i) --/dump getglobal("GameTooltip")
+		local LeftLine = getglobal(TooltipName .. "TextLeft" .. i)
 		if LeftLine then
 			local LeftLineText = LeftLine:GetText()
 			if Lines[LeftLineText] then
