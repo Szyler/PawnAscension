@@ -265,6 +265,53 @@ PawnGemData70Rare =
 
 }
 
+
+--========================================
+-- Epic level 70 gems
+--========================================
+PawnGemData70Epic =
+{
+{ 32193, true, false, false, 'Strength', 10 }, -- Bold Crimson Spinel
+{ 32194, true, false, false, 'Agility', 10 }, -- Delicate Crimson Spinel
+{ 32195, true, false, false, 'SpellPower', 12 }, -- Runed Crimson Spinel
+{ 32199, true, false, false, 'ParryRating', 10 }, -- Flashing Crimson Spinel
+{ 32221, true, false, false, 'DodgeRating', 10 }, -- Subtle Crimson Spinel
+{ 32197, true, false, false, 'ExpertiseRating', 10 }, -- Bright Crimson Spinel
+
+{ 32200, false, false, true, 'Stamina', 15 }, -- Solid Empyrean Sapphire
+{ 32201, false, false, true, 'Spirit', 10 }, -- Sparkling Empyrean Sapphire
+{ 32202, false, false, true, 'MP5', 5 }, -- Lustrous Empyrean Sapphire
+{ 32203, false, false, true, 'ResilienceRating', 10 }, -- Stormy Empyrean Sapphire
+
+{ 32205, false, true, false, 'Intellect', 10 }, -- Brilliant Lionseye
+{ 32206, false, true, false, 'CritRating', 10 }, -- Smooth Lionseye
+{ 35760, false, true, false, 'HasteRating', 10 }, -- Quick Lionseye
+{ 32208, false, true, false, 'DefenseRating', 10 }, -- Rigid Lionseye
+{ 32209, false, true, false, 'HitRating', 10 }, -- Mystic Lionseye
+
+{ 32217, true, true, false, 'Strength', 5, 'CritRating', 5 }, -- Inscribed Pyrestone
+{ 32222, true, true, false, 'Agility', 5, 'HasteRating', 5 }, -- Deadly Pyrestone
+{ 32218, true, true, false, 'SpellPower', 6, 'CritRating', 5 }, -- Potent Pyrestone
+{ 32220, true, true, false, 'Strength', 5, 'HasteRating', 5 }, -- Fierce Pyrestone
+{ 32221, true, true, false, 'Agility', 5, 'CritRating', 5 }, -- Wicked Pyrestone
+
+{ 32223, false, true, true, 'CritRating', 5, 'Stamina', 7 }, -- Jagged Seaspray Emerald
+{ 35758, false, true, true, 'HasteRating', 5, 'Stamina', 7 }, -- Radiant Seaspray Emerald
+{ 32225, false, true, true, 'MP5', 4, 'Stamina', 7 }, -- Dazzling Seaspray Emerald
+{ 32226, false, true, true, 'HitRating', 5, 'Stamina', 7 }, -- Enduring Seaspray Emerald
+{ 32227, false, true, true, 'DefenseRating', 5, 'Stamina', 7 }, -- Vivid Seaspray Emerald
+
+{ 32228, true, true, true, 'SpellPower', 6, 'Spirit', 5 }, -- Purified Shadowsong Amethyst
+{ 32212, true, true, true, 'SpellPower', 6, 'Stamina', 7 }, -- Shifting Shadowsong Amethyst
+{ 32230, true, true, true, 'SpellPower', 6, 'Intellect', 5 }, -- Glowing Shadowsong Amethyst
+{ 32231, true, true, true, 'Agility', 5, 'Stamina', 7 }, -- Balanced Shadowsong Amethyst
+{ 32214, true, true, true, 'SpellPower', 6, 'CritRating', 5 }, -- Infused Shadowsong Amethyst
+{ 32211, true, true, true, 'AttackPower', 10, 'Stamina', 7 }, -- Sovereign Shadowsong Amethyst
+}
+
+
+
+
 --========================================
 -- Colored level 80 uncommon-quality gems
 --========================================
@@ -716,6 +763,7 @@ PawnGemQualityLevels =
 {
 	{ 70, PawnLocal.GemQualityLevel70Uncommon },
 	{ 71, PawnLocal.GemQualityLevel70Rare },
+	{ 72, PawnLocal.GemQualityLevel70Epic },
 	{ 80, PawnLocal.GemQualityLevel80Uncommon },
 	{ 81, PawnLocal.GemQualityLevel80Rare },
 	{ 82, PawnLocal.GemQualityLevel80Epic },
@@ -724,6 +772,7 @@ PawnGemQualityTables =
 {
 	[70] = PawnGemData70Uncommon,
 	[71] = PawnGemData70Rare,
+	[72] = PawnGemData70Epic,
 	[80] = PawnGemData80Uncommon,
 	[81] = PawnGemData80Rare,
 	[82] = PawnGemData80Epic,

@@ -420,6 +420,7 @@ PawnLocal =
 	
 	["GemQualityLevel70Uncommon"] = "Level 70 uncommon",
 	["GemQualityLevel70Rare"] = "Level 70 rare",
+	["GemQualityLevel70Epic"] = "Level 70 epic",
 	["MetaGemQualityLevel70Rare"] = "Level 70 crafted",
 	["GemQualityLevel80Uncommon"] = "Level 80 uncommon",
 	["GemQualityLevel80Rare"] = "Level 80 rare",
